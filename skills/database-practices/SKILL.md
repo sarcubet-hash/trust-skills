@@ -1,15 +1,18 @@
 ---
 name: database-practices
-description: Guidelines for database migrations, schema design best practices, performance, and deployment safety. Use when creating migrations, designing database schemas, or modifying existing database structures.
+description: Guidelines for database migrations, schema design best practices, performance, and deployment safety. Use when the user says any of: create migration, add migration, make migration, write migration, add column, add table, create table, add database table, modify schema, update schema, design schema, add foreign key, add index, create model with migration, database design, follow database standards, or any request to create or modify database schema or migrations.
 ---
 
 # Database Practices and Migration Standards
 
 ## When to use this skill
+- When the user says: **create**, **add**, **make**, **generate**, **write**, **design**, **modify**, or **update** — and the context involves database/schema/migrations.
+- Keyword triggers: `migration`, `schema`, `table`, `column`, `database`, `db`, `foreign key`, `index`, `nullable`, `artisan make:migration`, `artisan make:model -m`.
 - When creating new database migrations.
 - When designing database schemas or adding new tables.
 - When modifying existing columns or relationships.
 - When reviewing data migration logic for safety and backward compatibility.
+- When the user asks to follow, refer, or use database standards.
 
 ## Workflow
 - Use the `database-migrations` skill (if available) when explicitly creating migrations.
