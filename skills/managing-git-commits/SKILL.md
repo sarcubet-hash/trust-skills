@@ -1,14 +1,17 @@
 ---
 name: managing-git-commits
-description: Guidelines for Git commit message formatting, atomic commits, and best practices. Use when committing code to the repository or generating commit messages.
+description: Guidelines for Git commit message formatting, atomic commits, and best practices. Use when the user says any of: commit, create commit, make commit, write commit message, generate commit, stage changes, git commit, push changes, commit this, commit changes, help me commit, follow commit standards, or any request involving creating or formatting a git commit message.
 ---
 
 # Git Commit Best Practices
 
 ## When to use this skill
+- When the user says: **commit**, **stage**, **push**, **write**, **generate**, **create**, or **make** — and the context involves git commits or commit messages.
+- Keyword triggers: `commit`, `git commit`, `commit message`, `stage`, `push`, `staged changes`, `git log`, `atomic commit`.
 - When requested to commit code to the repository.
 - When generating or formatting git commit messages.
 - When organizing codebase changes before creating a Merge Request.
+- When the user asks to follow, refer, or use commit standards.
 
 ## Workflow
 - **Ask the user for the ticket ID** if it is not already provided or cannot find from branch name.

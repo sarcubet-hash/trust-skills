@@ -1,13 +1,16 @@
 ---
 name: phpunit-testing
-description: Guidelines for writing unit and feature tests using PHPUnit in Laravel projects. Use when the user asks to write tests or test guidelines.
+description: Guidelines for writing unit and feature tests using PHPUnit in Laravel projects. Use when the user says any of: write test, create test, add test, generate test, make test, build test, run test, write unit test, write feature test, add PHPUnit, test controller, test repository, test service, cover with tests, test coverage, follow test standards, or any request to create or modify test files.
 ---
 
 # PHPUnit Testing Guidelines
 
 ## When to use this skill
+- When the user says: **write**, **create**, **add**, **generate**, **make**, **run**, or **cover** — and the context involves tests.
+- Keyword triggers: `test`, `phpunit`, `unit test`, `feature test`, `spec`, `coverage`, `mock`, `assert`, `TestCase`, `RefreshDatabase`.
 - When requested to write tests or test guidelines using PHPUnit in a Laravel project.
 - When generating unit or feature tests for classes, services, or controllers.
+- When the user asks to follow, refer, or use testing standards.
 
 ## Workflow
 - Adhere strictly to the separation of Unit Tests and Feature Tests.
